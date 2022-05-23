@@ -56,16 +56,16 @@ A epicbox address is composed of 4 components:
 ```
 Note that mainnet and testnet use different version bytes to clearly differentiate real vs. test address:
 Mainnet version bytes: [1, 11] which generate addresses starting with a `e` in the public key component
-Testnet version bytes: [1, 120] which generate addresses starting with an `x` in the public key component
+Testnet version bytes: [1, 136] which generate addresses starting with an `z` in the public key component
 ```
 
 Examples of valid addresses for testnet:
 
 ```
-xd8dyGUuP89t2TT9N9yU7pZsr6VyJAH6wZauESBQe67q741bVoaN
-epicbox://xd95u2toAVHE85BCHTi2tqddL6po3g4JVv8fFXVJGUTuMYKn6Bhp
-epicbox://xd9XfKTUCGr6iwzuDKyfN8N3EXd19z4kinCWTJyK5LMzdvoY9AZs@example.com
-epicbox://xd8EBsMXfYKyDJUiXYURNXJZ5e66hTJWweeYKgjPxwqXYEgkt8SE@example.com:13420
+zzPBoZaheSzq1bAqa2tkJmJWqnP1bQW6CdFLz26SbHpWiwKsTaMd
+epicbox://zzPdcNdusFeDqUFCDCz4B1LT31T8AQoJH3YQDF7bQEKtasDo6x9o
+epicbox://zzR8LqTQabfxNKE8UyNQdJ9Psc7LuRePETcABKrAhJJf5eMzUmsQ@example.com
+epicbox://zzP1c7HQkVPKorqV8qL1sjGmGRCdLTpsy7HHRoVSq3TRrE3fcCff@example.com:13420
 ```
 Examples of valid addresses for mainnet:
 

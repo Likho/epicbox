@@ -3,7 +3,7 @@ use std::fmt::{self, Display};
 
 use crate::error::{ErrorKind, Result};
 use crate::utils::crypto::Base58;
-use crate::utils::is_mainnet;
+use crate::utils::is_floonet;
 use crate::utils::secp::PublicKey;
 
 pub const EPICBOX_ADDRESS_REGEX: &str = r"^(epicbox://)?(?P<public_key>[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{52})(@(?P<domain>[a-zA-Z0-9\.]+)(:(?P<port>[0-9]*))?)?$";
@@ -13,11 +13,9 @@ pub const DEFAULT_EPICBOX_DOMAIN: &str = "127.0.0.1";
 pub const DEFAULT_EPICBOX_PORT: u16 = 443;
 
 pub fn version_bytes() -> Vec<u8> {
-    if is_mainnet() {
-        EPICBOX_ADDRESS_VERSION_MAINNET.to_vec()
-    } else {
-        EPICBOX_ADDRESS_VERSION_TESTNET.to_vec()
-    }
+
+    EPICBOX_ADDRESS_VERSION_TESTNET.to_vec()
+
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]
