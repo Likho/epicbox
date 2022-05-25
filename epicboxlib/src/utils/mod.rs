@@ -1,7 +1,7 @@
 use std::fmt::Write;
 use crate::error::{Result, ErrorKind};
 
-pub use epic_core::global::is_mainnet;
+pub use epic_core::global::is_floonet;
 
 pub mod base58;
 pub mod crypto;
