@@ -5,7 +5,6 @@ authors = ["vault713 devs"]
 description = "A library that encapsulates epicbox integration."
 license = "Apache-2.0"
 repository = "https://github.com/EpicCash/epicbox"
-readme = "README.md"
 edition = "2018"
 
 [dependencies]
