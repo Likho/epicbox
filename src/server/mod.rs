@@ -9,10 +9,10 @@ use uuid::Uuid;
 
 use ws::{CloseCode, Handler, Handshake, Message, Request, Response, Result as WsResult, Sender, connect};
 
-use epicboxlib::error::{ErrorKind, Result};
-use epicboxlib::types::{EpicboxAddress, EpicboxError, EpicboxRequest, EpicboxResponse};
-use epicboxlib::utils::crypto::{verify_signature, Base58, Hex};
-use epicboxlib::utils::secp::{PublicKey, Signature};
+use stack_test_epicboxlib::error::{ErrorKind, Result};
+use stack_test_epicboxlib::types::{EpicboxAddress, EpicboxError, EpicboxRequest, EpicboxResponse};
+use stack_test_epicboxlib::utils::crypto::{verify_signature, Base58, Hex};
+use stack_test_epicboxlib::utils::secp::{PublicKey, Signature};
 
 use crate::broker::{BrokerRequest, BrokerResponse};
 

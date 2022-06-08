@@ -3,7 +3,7 @@ use std::fmt::{self, Display};
 
 use crate::error::{ErrorKind, Result};
 use crate::utils::crypto::Base58;
-use crate::utils::is_floonet;
+use crate::utils::is_mainnet;
 use crate::utils::secp::PublicKey;
 
 pub const EPICBOX_ADDRESS_REGEX: &str = r"^(epicbox://)?(?P<public_key>[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{52})(@(?P<domain>[a-zA-Z0-9\.]+)(:(?P<port>[0-9]*))?)?$";
