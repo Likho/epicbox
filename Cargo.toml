@@ -30,4 +30,4 @@ unicode-segmentation = "0.1"
 uuid = { version = "0.7", features = ["serde", "v4"] }
 ws = "0.7"
 
-stack_test_epicboxlib = { path = "./epicboxlib" }
+stack_test_epicboxlib = "1.0.1"

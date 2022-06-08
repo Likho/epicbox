@@ -2730,6 +2730,8 @@ dependencies = [
 [[package]]
 name = "stack_test_epicboxlib"
 version = "1.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bc4cbc95f37ce2d12af41e62d505b540828cd62ac633554c48527498dc148b73"
 dependencies = [
  "colored",
  "failure",
