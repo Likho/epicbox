@@ -20,7 +20,7 @@ extern crate unicode_segmentation;
 extern crate uuid;
 extern crate ws;
 
-extern crate epicboxlib;
+extern crate stack_test_epicboxlib;
 
 mod broker;
 mod server;
