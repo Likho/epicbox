@@ -1,11 +1,10 @@
 [package]
-name = "epicboxlib"
-version = "1.0.1"
+name = "stack_test_epicboxlib"
+version = "1.0.2"
 authors = ["vault713 devs"]
 description = "A library that encapsulates epicbox integration."
-keywords = [ "epicbox", "vault713", "epic", "mimblewimble", "rust", "crypto", "cryptocurrency", "wallet713" ]
 license = "Apache-2.0"
-readme = "README.md"
+repository = "https://github.com/EpicCash/epicbox"
 edition = "2018"
 
 [dependencies]
@@ -24,5 +23,5 @@ ws = { version="0.7", features=["ssl"] }
 
 grin_secp256k1zkp = { version = "0.7.4", features = ["bullet-proof-sizing"]}
 
-epic_core     = { git = "https://github.com/EpicCash/epic", branch = "3.0.0" }
-epic_wallet_libwallet = { git = "https://github.com/EpicCash/epic-wallet" , branch = "3.0.0" }
+stack_test_epic_core = "3.0.0"
+stack_test_epic_wallet_libwallet = "3.0.1"
