@@ -1,6 +1,6 @@
 [package]
 name = "stack_test_epicboxlib"
-version = "1.0.2"
+version = "1.0.3"
 authors = ["vault713 devs"]
 description = "A library that encapsulates epicbox integration."
 license = "Apache-2.0"
